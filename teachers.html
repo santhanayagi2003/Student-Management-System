@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Teacher Management</title>
+
+<style>
+
+body{
+font-family: Arial;
+background:#f4f6f9;
+margin:0;
+}
+
+h1{
+text-align:center;
+padding:20px;
+background:#7ab1ec;
+color:white;
+margin:0;
+}
+
+.container{
+width:80%;
+margin:auto;
+margin-top:30px;
+}
+
+form{
+background:white;
+padding:20px;
+border-radius:8px;
+box-shadow:0 0 8px gray;
+margin-bottom:30px;
+}
+
+input{
+width:100%;
+padding:10px;
+margin:8px 0;
+border:1px solid #ccc;
+border-radius:5px;
+}
+
+button{
+padding:10px 20px;
+background:#36404b;
+color:white;
+border:none;
+border-radius:5px;
+cursor:pointer;
+}
+
+button:hover{
+background:#0056b3;
+}
+
+table{
+width:100%;
+border-collapse:collapse;
+background:white;
+box-shadow:0 0 8px gray;
+}
+
+th, td{
+padding:12px;
+border:1px solid #ddd;
+text-align:center;
+}
+
+th{
+background:#a2bcd8;
+color:white;
+}
+
+.action-btn{
+background:#28a745;
+margin-right:5px;
+}
+
+.delete-btn{
+background:#dc3545;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h1>Teacher Information Portal</h1>
+
+<div class="container">
+
+<!-- Add Teacher Form -->
+
+<form>
+
+<h3>Add Teacher</h3>
+
+<input type="text" placeholder="Teacher ID">
+
+<input type="text" placeholder="Teacher Name">
+
+<input type="text" placeholder="Subject">
+
+<input type="email" placeholder="Email">
+
+<input type="text" placeholder="Phone Number">
+
+<button>Add Teacher</button>
+
+</form>
+
+
+<!-- Teacher Table -->
+
+<table>
+
+<tr>
+<th>ID</th>
+<th>Name</th>
+<th>Subject</th>
+<th>Email</th>
+<th>Phone</th>
+<th>Actions</th>
+</tr>
+
+<tr>
+<td>T101</td>
+<td>Lakshmi</td>
+<td>Database Management System (DBMS) </td>
+<td>lakshmi@gmail.com</td>
+<td>9876543210</td>
+<td>
+<button class="action-btn">Edit</button>
+<button class="delete-btn">Delete</button>
+</td>
+</tr>
+
+<tr>
+<td>T102</td>
+<td>Ravi</td>
+<td>Data Structures</td>
+<td>ravi@gmail.com</td>
+<td>9876541230</td>
+<td>
+<button class="action-btn">Edit</button>
+<button class="delete-btn">Delete</button>
+</td>
+</tr>
+</table>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

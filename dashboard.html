@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Dashboard</title>
+
+<style>
+
+body{
+font-family: Arial;
+margin:0;
+background:#f4f6f9;
+}
+
+/* Header */
+
+.header{
+background:#7ab1ec;
+color:white;
+padding:15px;
+text-align:center;
+font-size:24px;
+}
+
+/* Dashboard container */
+
+.container{
+display:flex;
+justify-content:center;
+gap:30px;
+margin-top:40px;
+flex-wrap:wrap;
+}
+
+/* Dashboard cards */
+
+.card{
+background:white;
+width:220px;
+padding:20px;
+border-radius:10px;
+box-shadow:0 4px 10px rgba(0,0,0,0.2);
+text-align:center;
+}
+
+.card h3{
+margin:10px 0;
+}
+
+.card p{
+font-size:22px;
+font-weight:bold;
+background:#7ab1ec;
+}
+
+.card:hover{
+transform:scale(1.05);
+transition:0.3s;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="header">
+ Student Management Dashboard
+</div>
+
+<div class="container">
+
+<div class="card">
+<h3>Total Students</h3>
+<p>250</p>
+</div>
+
+<div class="card">
+<h3>Total Teachers</h3>
+<p>45</p>
+</div>
+
+<div class="card">
+<h3>Coureses</h3>
+<p>12</p>
+</div>
+
+<div class="card">
+<h3>Attendance</h3>
+<p>5</p>
+</div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

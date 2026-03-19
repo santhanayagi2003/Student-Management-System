@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Student Grades</title>
+
+<style>
+
+body{
+font-family: Arial;
+background:#f4f6f9;
+margin:0;
+}
+
+h1{
+text-align:center;
+background:#7ab1ec;
+color:white;
+padding:15px;
+margin:0;
+}
+
+.container{
+width:85%;
+margin:auto;
+margin-top:30px;
+}
+
+table{
+width:100%;
+border-collapse:collapse;
+background:white;
+box-shadow:0 0 8px gray;
+}
+
+th,td{
+padding:12px;
+border:1px solid #ddd;
+text-align:center;
+}
+
+th{
+background:#7ab1ec;
+color:white;
+}
+
+tr:hover{
+background:#f1f1f1;
+}
+
+button{
+padding:6px 12px;
+border:none;
+border-radius:4px;
+color:white;
+cursor:pointer;
+}
+
+.edit{
+background:#28a745;
+}
+
+.delete{
+background:#dc3545;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h1>Student Grades</h1>
+
+<div class="container">
+
+<table>
+
+<tr>
+<th>Student ID</th>
+<th>Student Name</th>
+<th>Subject</th>
+<th>Marks</th>
+<th>Grade</th>
+<th>Actions</th>
+</tr>
+
+<tr>
+<td>S101</td>
+<td>Santhanayagi</td>
+<td>Data Structures</td>
+<td>92</td>
+<td>A+</td>
+<td>
+<button class="edit">Edit</button>
+<button class="delete">Delete</button>
+</td>
+</tr>
+
+<tr>
+<td>S102</td>
+<td>Priya</td>
+<td>DBMS</td>
+<td>85</td>
+<td>A</td>
+<td>
+<button class="edit">Edit</button>
+<button class="delete">Delete</button>
+</td>
+</tr>
+
+<tr>
+<td>S103</td>
+<td>Arun</td>
+<td>Operating Systems</td>
+<td>76</td>
+<td>B+</td>
+<td>
+<button class="edit">Edit</button>
+<button class="delete">Delete</button>
+</td>
+</tr>
+</table>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

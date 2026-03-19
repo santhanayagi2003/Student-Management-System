@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Student Management System</title>
+
+<style>
+
+body{
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/* Navigation bar */
+
+nav{
+    background:#2c3e50;
+    padding:15px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+nav h2{
+    color:white;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:10px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:#f1c40f;
+}
+
+/* Hero section */
+
+.hero{
+    height:70vh;
+    background:linear-gradient(to right,#07456e,#40acd3);
+    color:white;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+.hero h1{
+    font-size:45px;
+}
+
+.hero p{
+    font-size:20px;
+}
+
+.hero button{
+    padding:12px 25px;
+    background:#2c3e50;
+    color:white;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+.hero button:hover{
+    background:black;
+}
+.features{
+    padding:40px;
+    text-align:center;
+}
+.features h2{
+    margin-bottom:30px;
+}
+
+.cards{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+}
+
+.card{
+    width:220px;
+    padding:20px;
+    background:#ecf0f1;
+    border-radius:10px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+.card:hover{
+    transform:scale(1.05);
+}
+
+/* Footer */
+
+footer{
+    background:#2c3e50;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:30px;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- Navigation -->
+
+<nav>
+
+<h2>SMS</h2>
+
+<div>
+<a href="login.html">Login</a>
+<a href="#"></a>
+<a href="dashboard.html">Dashboard</a>
+<a href="students.html">Students</a>
+<a href="teachers.html">Teachers</a>
+<a href="coureses.html">Coureses</a>
+<a href="grades.html">Grades</a>
+<a href="attendance.html">Attendance</a>
+
+</nav>
+<!-- Hero Section -->
+
+<div class="hero">
+
+<h1>Student Management System</h1>
+
+<p>
+This system is designed to simplify and organize academic information within a college environment. It helps manage important student-related activities such as maintaining student records, managing teacher information, organizing courses, tracking attendance, monitoring grades, and handling enrollments. It provides a structured platform where all academic data can be accessed and updated easily. By bringing all essential information together in one place, the system helps improve efficiency, accuracy, and overall management of college operations.
+</p>
+<button>Get Started</button>
+
+</div>
+
+
+<!-- Features -->
+
+<div class="features">
+
+<h2>Our Features</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Students</h3>
+<p>Manage student details and records easily.</p>
+</div>
+
+<div class="card">
+<h3>Teachers</h3>
+<p>Add and manage teacher information.</p>
+</div>
+
+<div class="card">
+<h3>Courses</h3>
+<p>Organize courses and enrollments.</p>
+</div>
+
+<div class="card">
+<h3>Attendance</h3>
+<p>Track student attendance daily.</p>
+</div>
+
+</div>
+
+</div>
+
+
+<!-- Footer -->
+
+<footer>
+
+<p>© 2026 Student Management System | All Rights Reserved</p>
+
+</footer>
+<script src="script.js"></script>
+</body>
+
+</html>

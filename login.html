@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+
+
+<title>Login Page</title>
+
+<style>
+
+body{
+    font-family: Arial;
+    background:#f2f2f2;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.container{
+    background:white;
+    padding:30px;
+    width:320px;
+    border-radius:10px;
+    box-shadow:0 0 10px gray;
+}
+
+h2{
+    text-align:center;
+}
+
+input{
+    width:100%;
+    padding:10px;
+    margin:8px 0;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+button{
+    width:100%;
+    padding:10px;
+ background:#7ab1ec;
+    color:white;
+    border:none;
+    border-radius:5px;
+}
+
+p{
+    text-align:center;
+}
+
+a{
+  background:#7ab1ec;
+    text-decoration:none;
+}
+
+a:hover{
+    text-decoration:underline;
+}
+.forgot{
+    text-align:right;
+    font-size:14px;
+}
+
+#signupForm{
+    display:none;
+}
+
+#signupForm:target{
+    display:block;
+}
+
+#signupForm:target ~ #loginForm{
+    display:none;
+}
+
+</style>
+</head>
+<body>
+<div class="container">
+<!-- Signup Form -->
+<div id="signupForm">
+
+<h2>Signup</h2>
+
+<input type="text" placeholder="First Name">
+
+<input type="text" placeholder="Last Name">
+
+<input type="email" placeholder="Email">
+
+<input type="password" placeholder="Password">
+
+<input type="password" placeholder="Confirm Password">
+
+<button>Signup</button>
+
+<p>Already have an account? <a href="#loginForm">Login</a></p>
+
+</div>
+
+
+<!-- Login Form -->
+
+<div id="loginForm">
+
+<h2>Login</h2>
+
+<input type="text" placeholder="Username">
+
+<input type="password" placeholder="Password">
+<br><br>
+<div class="forgot">
+<a href="Forgot Password?">Forgot Password?</a>
+</div>
+<br>
+<button>Login</button>
+
+<p>Don't have an account? <a href="#signupForm">Signup</a></p>
+
+</div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

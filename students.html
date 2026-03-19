@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Student Records</title>
+
+<style>
+
+body{
+font-family: Arial;
+background:#f4f6f9;
+margin:0;
+}
+
+h1{
+text-align:center;
+background:#007BFF;
+color:white;
+padding:15px;
+margin:0;
+}
+
+.container{
+width:85%;
+margin:auto;
+margin-top:30px;
+}
+
+table{
+width:100%;
+border-collapse:collapse;
+background:white;
+box-shadow:0 0 8px gray;
+}
+
+th,td{
+padding:12px;
+border:1px solid #ddd;
+text-align:center;
+}
+
+th{
+background:#007BFF;
+color:white;
+}
+
+tr:hover{
+background:#f1f1f1;
+}
+
+button{
+padding:6px 12px;
+border:none;
+border-radius:4px;
+color:white;
+cursor:pointer;
+}
+
+.edit{
+background:#28a745;
+}
+
+.delete{
+background:#dc3545;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h1>Student Records</h1>
+
+<div class="container">
+
+<table>
+
+<tr>
+<th>Student ID</th>
+<th>Name</th>
+<th>Department</th>
+<th>Year</th>
+<th>Email</th>
+<th>Phone</th>
+<th>Actions</th>
+</tr>
+
+<tr>
+<td>S101</td>
+<td>Santhanayagi</td>
+<td>Computer Science</td>
+<td>3rd Year</td>
+<td>santha@gmail.com</td>
+<td>9876543210</td>
+<td>
+<button class="edit">Edit</button>
+<button class="delete">Delete</button>
+</td>
+</tr>
+
+<tr>
+<td>S102</td>
+<td>Priya</td>
+<td>Information Technology</td>
+<td>2nd Year</td>
+<td>priya@gmail.com</td>
+<td>9876512340</td>
+<td>
+<button class="edit">Edit</button>
+<button class="delete">Delete</button>
+</td>
+</tr>
+
+<tr>
+<td>S103</td>
+<td>Arun</td>
+<td>Electronics</td>
+<td>1st Year</td>
+<td>arun@gmail.com</td>
+<td>9876509876</td>
+<td>
+<button class="edit">Edit</button>
+<button class="delete">Delete</button>
+</td>
+</tr>
+</table>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Attendance Management</title>
+
+<style>
+
+body{
+font-family: Arial;
+background:#f4f6f9;
+margin:0;
+}
+
+h1{
+text-align:center;
+background:#7ab1ec;
+color:white;
+padding:15px;
+margin:0;
+}
+
+.container{
+width:80%;
+margin:auto;
+margin-top:30px;
+}
+
+/* form style */
+
+.form-box{
+background:white;
+padding:20px;
+border-radius:8px;
+box-shadow:0 0 8px gray;
+margin-bottom:30px;
+}
+
+input,select{
+width:100%;
+padding:10px;
+margin:8px 0;
+border:1px solid #ccc;
+border-radius:5px;
+}
+
+button{
+width:100%;
+padding:10px;
+background:#7ab1ec;
+color:white;
+border:none;
+border-radius:5px;
+cursor:pointer;
+}
+
+button:hover{
+background:#7ab1ec;
+}
+
+/* table style */
+
+table{
+width:100%;
+border-collapse:collapse;
+background:white;
+box-shadow:0 0 8px gray;
+}
+
+th,td{
+padding:12px;
+text-align:center;
+border-bottom:1px solid #ddd;
+}
+
+th{
+background:#7ab1ec;
+color:white;
+}
+
+tr:hover{
+background:#f1f1f1;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h1>Attendance Management</h1>
+
+<div class="container">
+
+<div class="form-box">
+
+<h3>Attendance</h3>
+
+<input type="text" placeholder="Student Name">
+
+<input type="text" placeholder="Course Name">
+
+<select>
+<option>Select Status</option>
+<option>Present</option>
+<option>Absent</option>
+</select>
+
+<button>Submit Attendance</button>
+
+</div>
+
+<table>
+
+<tr>
+<th>Student ID</th>
+<th>Name</th>
+<th>Course</th>
+<th>Status</th>
+<th>Date</th>
+</tr>
+
+<tr>
+<td>S101</td>
+<td>Santhanayagi</td>
+<td>Data Structures</td>
+<td>Present</td>
+<td>12-03-2026</td>
+</tr>
+
+<tr>
+<td>S102</td>
+<td>Priya</td>
+<td>DBMS</td>
+<td>Absent</td>
+<td>12-03-2026</td>
+</tr>
+
+<tr>
+<td>S103</td>
+<td>Arun</td>
+<td>Machine Learning</td>
+<td>Present</td>
+<td>12-03-2026</td>
+</tr>
+</table>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
